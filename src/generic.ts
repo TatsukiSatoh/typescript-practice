@@ -1,9 +1,9 @@
-type User<T> = {
+type UserTest<T> = {
     name: string
     child: T
 }
 
-const testUser: User<number> = {
+const testUser: UserTest<number> = {
     name: "Taro",
     child: 1
 }
